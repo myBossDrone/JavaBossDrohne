@@ -24,7 +24,7 @@ public class Frontend extends JFrame {
 	}
 	
 	private void init() {
-		
+		//test
 		contentPane.setBackground(Color.GRAY);
 	}
 }

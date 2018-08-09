@@ -1,5 +1,7 @@
 package de.bossdrohne.main;
 
+import java.awt.Color;
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -23,6 +25,6 @@ public class Frontend extends JFrame {
 	
 	private void init() {
 		
-		
+		contentPane.setBackground(Color.GRAY);
 	}
 }

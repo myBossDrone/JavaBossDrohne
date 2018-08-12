@@ -11,7 +11,6 @@ public class InitService {
 			@Override
 			public void run() {
 				new Frontend();
-				System.out.println("test");
 			}
 		});
 	}

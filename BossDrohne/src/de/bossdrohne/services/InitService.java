@@ -1,7 +1,9 @@
 
-package de.bossdrohne.main;
+package de.bossdrohne.services;
 
 import java.awt.EventQueue;
+
+import de.bossdrohne.frontend.MainFrame;
 
 public class InitService {
 	
@@ -10,7 +12,7 @@ public class InitService {
 			
 			@Override
 			public void run() {
-				new Frontend();
+				new MainFrame();
 			}
 		});
 	}

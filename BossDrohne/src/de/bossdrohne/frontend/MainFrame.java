@@ -1,4 +1,4 @@
-package de.bossdrohne.main;
+package de.bossdrohne.frontend;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -11,7 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 
-public class Frontend extends JFrame {
+public class MainFrame extends JFrame {
 
 	private static final long serialVersionUID = -437139051926418759L;
 
@@ -31,7 +31,7 @@ public class Frontend extends JFrame {
 	private int screenHeight = Toolkit.getDefaultToolkit().getScreenSize().height - Toolkit.getDefaultToolkit().getScreenInsets(getGraphicsConfiguration()).bottom;
 	
 	
-	public Frontend() {
+	public MainFrame() {
 		super("BossDrohne");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setContentPane(contentPane);

@@ -1,10 +1,9 @@
-package de.bossdrohne.main;
+package de.bossdrohne.model;
 
 public class Backend {
 
 	public Backend() {
 		
-	
 	}
 	
 }
